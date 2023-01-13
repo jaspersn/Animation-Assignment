@@ -13,6 +13,5 @@ ASSET_MANAGER.downloadAll(() => {
 	
 	gameEngine.init(ctx);
 	gameEngine.addEntity(new Jake(gameEngine));
-	console.log(test["data"]);
 	gameEngine.start();
 });
